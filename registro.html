@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--aqui llamo mi hoja de estilos CSS-->
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    
+    <title>Registro</title>
+
+</head>
+<body>
+<!--
+<div>
+    <form action="registrodb.php" method="post">
+        <h1>Registro de usuario</h1>
+        <p>Usuario <input class="textbox" type="text"placeholder="" name="usuario"> </p>
+        <p>Contraseña <input class="textbox" type="password"placeholder="Ingrese contraseña" name="password"> </p>
+        <input type="submit" value="Registrar">
+    </form>
+</div>
+
+-->
+<div class="container">
+    <div class="login-container">
+      <div class="register">
+        <h2>Registrarse</h2>
+        <form action="registro.php" method="post">
+          <input type="text" placeholder="Usuario" class="nombre" name="usuario" required>
+          <input type="password" placeholder="Contraseña" class="pass" name="password" required>
+          <input type="text" placeholder="Nombres" class="nombre" name="nombres" required>
+          <input type="text" placeholder="Apellidos" class="nombre" name="apellidos" required>
+          <input type="text" placeholder="Cedula" class="nombre" name="cedula" required>
+          Fecha de Nacimiento<input type="date" placeholder="Fecha de nacimiento" class="nombre" name="fechanacimiento" required>
+          
+          <input type="submit" class="submit" value="REGISTRARSE">
+        </form>
+      </div>
+      <!--Imagen gif del logo-->
+      <div class="login">
+        <div class="login-items">
+        <div class="h2mio">Mi IMC</div></div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="miestilo.css">
+    <!--Iconos footer-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="video">
+        <video onloadedmetadata="this.muted=true" autoplay loop>
+            <source src="../APPPRUEBAS/videos/WHITE.mp4">
+        </video>
+    </div>
+
+
+    <header>
+        <div class="containernav">
+        <div class="navbar">
+            <img src="../img/logo.gif" class="logo"><h2>MI IMC</h2> 
+            <nav>
+                <ul id="menuList">
+                    <li><a href="../APPPRUEBAS/PRINCIPAL.html">Inicio</a></li>
+                    <li><a href="">¿Qué es IMC?</a></li>
+                    <li><a href="">Alimentación</a></li>
+                    <li><a href="">Ejercicios</a></li>
+                </ul>
+            </nav>
+            <img src="../imgapp/menu.png" class="menu-icon"  onclick="togglemenu()">
+        </div>
+    </div>
+        
+        
+    </header>
+
+
+    <div class="containerpresentacion">
+        <div class="presentacion">
+            <p class="fontbanner1">Aqui sabras mas sobre tu estado de salud, te daremos informacion importante sobre rutinas de ejercicios y alimentacion que ayudaran a mejorar tu salud y estilo de vida</p>
+        </div>
+    </div>
+
+    <div class="containercolororange">
+        <div class="section2">
+        <img src="../imgapp/2 calculadora.svg" class="imgsection">
+        </div>
+        <div class="section1">
+        <h2>¿El IMC se interpreta de la misma manera para los niños y adolescentes que para los adultos?</h2>
+        <p>El IMC se interpreta de manera diferente para niños y adolescentes, aunque se calcula utilizando la misma fórmula que el IMC para adultos. El IMC de niños y adolescentes debe ser específico para la edad y el sexo porque la cantidad de grasa corporal cambia con la edad y la cantidad de grasa corporal difiere entre niñas y niños. Las tablas de crecimiento del IMC por edad de los CDC tienen en cuenta estas diferencias y muestran visualmente el IMC como una clasificación porcentual. Estos percentiles se determinaron utilizando datos representativos de la población estadounidense de 2 a 19 años de edad que se recopilaron en varias encuestas de 1963-65 a 1988-94.
+
+        La obesidad entre los jóvenes de 2 a 19 años se define como un IMC igual o superior al percentil 95 de los niños de la misma edad y sexo en esta población de referencia de 1963 a 1994. Por ejemplo, un niño de 10 años de estatura promedio (56 pulgadas) que pesa 102 libras tendría un IMC de 22,9 kg / m2. Esto colocaría al niño en el percentil 95 de IMC, lo que significa que su IMC es mayor que el del 95% de los niños de edad similar en esta población de referencia, y se consideraría que tiene obesidad.</p>
+        </div> 
+    </div>
+
+    
+
+    <div class="row">
+    <div class="container">
+
+        <div class="bannerorange"> 
+            <div class="containerpresentacion">
+                <br>
+                <p class="fontbanner1">
+                
+                Para hacer la tarea más fácil aqui te enseñaremos que medidas debes tomar y a continuación, te ofrecemos una calculadora automática. Solo tienes que ingresar los datos y el resultado saldrá de inmediato. Con este índice, consultas la tabla que indica los niveles de obesidad.
+                
+                </p>
+            </div><center><h1>IMC = Peso ÷ m²</h1></center>
+            
+        </div>
+
+
+        <div class="containercolorwhite">
+
+            <div class="section1">
+                <h2>¿Cómo se calcula el IMC?</h2>
+                <p>El IMC se calcula de la misma manera tanto para adultos como para niños. El cálculo se basa en las siguientes fórmulas: 
+                    <br>Fórmula: peso (kg) / [estatura (m)]<sup>2</sup>
+
+                    Con el sistema métrico, la fórmula para el IMC es el peso en kilogramos dividido por la estatura en metros cuadrados. Debido a que la estatura por lo general se mide en centímetros, divida la estatura en centímetros por 100 para obtener la estatura en metros.
+                    
+                    Ejemplo: Peso = 68 kg, Estatura = 165 cm (1.65 m)
+                    Cálculo: 68 ÷ (1.65)2 = 24.98
+                </p>    
+            </div>
+            <div class="section2calc">
+                <div class="imgsectioncalc">
+                    <table class="tablacalc">
+                    <tr>
+                    <td>
+                        <center> <h2> Ingrese los siquientes datos</h2></center><br>
+                    
+
+                    <form name="MyForm" class="sinespacio">
+                        Tu altura en centimetros: <input type="text" name="numero1" size="20"><br><br>
+                        Tu peso en kilogramos: <input type="text" name="numero2" size="20"><br><br>
+                        ¿Cual es tu Sexo?: <select name="transporte">
+
+                        <option selected></option>
+
+                        <option>Mujer</option>
+                        
+                        <option>Hombre</option>
+                        
+                        <option>Otro</option>
+                        
+                        </select><br><br>
+                        Ingresa tu edad: <input type="text" name="numero2" size="20"><br><br>
+                        Resultado:       <input type="text" name="resultado" size="20"><br><br>
+                        <center><input type="button" value="Calcular IMC" oneclick="sumar()" class="botoncalcular"></center>
+                    </form>
+                    </td>
+                    </tr>
+                    </table>
+                </div>
+               
+        
+            </div>
+        </div>
+        
+
+        <div class="bannerorange"> 
+            <div class="containerpresentacion">
+                <div class="presentacion"></div>
+                <p class="fontbanner1"><br>
+                Para medir la estatura con exactitud en la casa para calcular el IMC te damos los siguientes pasos
+                </p>
+            </div>
+            
+        </div>
+
+
+
+        <div class="containercolororange">
+            <div class="section2">
+            <img src="../imgapp/1 pregunta.svg" class="imgsection">
+            </div>
+            <div class="section1">
+            <h2>Para medir la estatura con exactitud en la casa para calcular el IMC por edad:</h2>
+            <p>
+
+                1.Quítele al niño los zapatos, la ropa pesada, los adornos del pelo y retire cualquier pelo suelto que interfiera con la medición.
+                <br>
+                2.Tómele la medida de la estatura cuando esté en un piso que no tenga alfombra y contra una superficie plana como una pared sin molduras.
+                <br>
+                3.Dígale al niño que se pare con los pies planos, juntos y contra la pared. Asegúrese de que tenga las piernas rectas, los brazos a los lados y los hombros en el mismo nivel.
+                <br>
+                4.Haga que mire al frente y que la línea de su visión vaya paralela con el piso.
+                <br>
+                5.Tome la medida mientras el niño tenga la cabeza, los hombros, las nalgas y los talones tocando la superficie plana (pared). (Vea la ilustración) Dependiendo de la forma del cuerpo del niño, es posible que no todas estas partes estén en contacto con la pared.
+                <br>
+                6.Utilice un objeto plano que pueda poner sobre la cabeza para formar un ángulo recto con la pared y bájelo hasta que toque firmemente la corona de la cabeza.
+                <br>
+                7.Asegúrese de que los ojos de la persona que haga la medición estén al mismo nivel que el objeto plano colocado sobre la cabeza.
+                <br>
+                8.Marque ligeramente punto donde la parte de abajo del objeto toque la pared. Luego, use una cinta de medir metálica y mida desde la base del piso hasta la marca en la pared para obtener la medida de la estatura.
+                <br>
+                9.Registre con exactitud la estatura y aproxime hasta el 1/8 de pulgada o 0.1 centímetro más cercano.</p>
+            </div> 
+        </div>
+
+        <div class="containercolorwhite">
+            <div class="section1">
+                <h2>Para medir el peso con exactitud en la casa para calcular el IMC por edad:</h2>
+                <p>
+                    <b>1.</b>Utilice una báscula digital. Evite usar básculas de baño con resortes. Coloque la báscula sobre un piso firme (como losa o madera) en lugar de la alfombra.
+                    <br>
+                    <b>2.</b>Dígale al niño o adolescente que se quite los zapatos y la ropa pesada, como suéteres.
+                    <br>
+                    <b>3.</b>Asegúrese de que se pare con ambos pies en el centro de la báscula.
+                    <br>
+                    <b>4.</b>Registre el peso y aproxime hasta la fracción decimal más cercana (por ejemplo, 55.5 libras o 25.1 kilogramos).
+                </p>
+            </div>
+            <div class="section2">
+                <img src="../imgapp/5 peso.svg" class="imgsection">
+            </div>
+        </div>
+
+
+        
+
+        
+
+    
+
+
+
+
+    </div>
+
+   
+
+    </div>
+
+    <!--Pie de Pagina footer-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../imgapp/LOREM.jpg" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Si te gusto esta pagina web realizada por Johan Almeida comunicate al siguiente correo</p>
+                <p>jhoandres.a2v@gmail.com</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Johan Almeida</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+
+
+<!--Este script me calcula el imc y direciona a la pagina con el resultado-->
+
+<script>
+    function sumar() {
+        var n1 = parseFloat(document.MyForm.numero1.value);
+        var n2 = parseFloat(document.MyForm.numero2.value);
+        document.MyForm.resultado.value=n1+n2;
+    }
+</script>
+
+
+    
+<!-- con este script hago una condicional que indica que 
+    que si la altura es igual a 0px tomara una altura de 130 px  -->
+    <script>
+
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+
+    
+
+</body>
+</html>

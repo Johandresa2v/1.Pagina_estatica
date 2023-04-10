@@ -1,0 +1,5 @@
+--seccion de calculadora de IMC----
+como se calula el IMC 
+https://www.cdc.gov/healthyweight/spanish/assessing/bmi/adult_bmi/index.html#:~:text=%C2%BFC%C3%B3mo%20se%20calcula%20el%20IMC%3F,-El%20IMC%20se&text=Con%20el%20sistema%20m%C3%A9trico%2C%20la,obtener%20la%20estatura%20en%20metros.
+
+https://hablandodeobesidad.com/que-es-la-obesidad/que-es-imc-y-como-se-relaciona-con-la-obesidad/?gclid=Cj0KCQjwqoibBhDUARIsAH2OpWgJEqrDTLZeFu7umMpv16R60a5ytOK2roZtrkRuNgSSS3JHJ8eZe24aAv3sEALw_wcB

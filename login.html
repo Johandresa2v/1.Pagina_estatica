@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--aqui llamo mi hoja de estilos CSS-->
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    
+    <title>Login</title>
+
+</head>
+<body>
+<!--
+<div>
+    <form action="registrodb.php" method="post">
+        <h1>Registro de usuario</h1>
+        <p>Usuario <input class="textbox" type="text"placeholder="" name="usuario"> </p>
+        <p>Contraseña <input class="textbox" type="password"placeholder="Ingrese contraseña" name="password"> </p>
+        <input type="submit" value="Registrar">
+    </form>
+</div>
+
+-->
+<div class="container">
+    <div class="login-container">
+      <div class="register">
+        <h2>Iniciar Sesión</h2>
+        <form action="verificar.php" method="post">
+            <input type="text" placeholder="Usuario" class="nombre" name="usuario" required>
+            <input type="password" placeholder="Contraseña" class="pass" name="password" required>
+            <input type="submit" class="submit" value="INICIAR SESIÓN">
+            <br>
+            <input type="button" value="REGISTRARSE" class="submit" onclick="location.href='registro.html'">       
+        </form>
+      </div>
+
+      <!--Imagen gif del logo-->
+      <div class="login">
+        <h2 class="h2mio">Mi IMC</h2>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+</body>
+</html>

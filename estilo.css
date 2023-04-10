@@ -1,0 +1,84 @@
+/*Le doy uso a toda la pantalla y seguido creo el contenedor y el espacio en pantalla que quiero que ocupe */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: antiquewhite;
+} 
+
+/*barra superior*/
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    color: #ff5ea2;
+}
+
+/*Columna principal*/
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+
+/*Columnas de las tarjetas */
+/*columna izquierda*/
+.col-1{
+    flex-basis: 40%;
+    fle
+    position: relative;
+    margin-left: 50px;
+    background-color: rgb(185, 248, 227);
+}
+
+/*columna derecha*/
+.col-2{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    background-color: #fdc8de;
+}
